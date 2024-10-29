@@ -1,0 +1,77 @@
+body { 
+  background-color:#E6E6FA;
+  color:#191970;
+  font-family:Arial, Verdana, sans-serif;
+  left: 0;
+  top: 0;
+}
+.flowerbg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, (rgba(0,0,0,1)), (rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.flowerclip {
+  height: 100%;
+  width: 100%; 
+}
+.mainDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.trilliumtext {
+  background:linear-gradient(in hsl to left, #aeaed4, #8677db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: fit-content;
+  display: inline-block;
+}
+.textshow {
+  background: 60% linear-gradient(to right, #9e91e8, #aeaed400);
+}
+.flowerbgtwo {
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  
+}
+header {
+  background-color:#191970;
+  border-bottom: 3px solid #4b4ba3;
+  color:#E6E6FA;
+  font-family:Georgia, "Times New Roman", serif;
+    text-indent: 1em;
+  z-index: 1;
+}
+nav {
+  word-spacing: 1em;
+}
+h1 {
+  padding: 1em;
+}
+h2 {
+  background-image:url(https://www.gardenia.net/wp-content/uploads/2023/04/96A0Vg3s7w5s1JYAiXdpjTOVa0ccCAoPe2k05wBb-780x520.webp);
+  color:#e6e6fa;
+  font-family:Georgia, "Times New Roman", serif;
+  text-align: center; 
+  border-bottom: 2px dashed #191970;
+}
+p {
+  font-size:.90em;
+  text-indent: 3em; 
+}
+ul {
+  font-weight:bold;
+}
+footer { 
+  font-style: italic;
+  font-size: .75em; 
+  border-top: thin solid #aeaed4;
+  padding-top: 10px;
+  color: #333333;
+}
